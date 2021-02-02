@@ -1,0 +1,230 @@
+@import url("https://fonts.googleapis.com/css?family=Josefin+Sans&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+  font-family: "Josefin Sans", sans-serif;
+}
+
+h3 {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+form {
+  text-align: center;
+  font-size: x-large;
+}
+
+body {
+  background-color: #f3f5f9;
+}
+
+.wrapper {
+  display: flex;
+  position: relative;
+}
+
+.wrapper .sidebar {
+  width: 200px;
+  height: 100%;
+  background: #4b4276;
+  padding: 30px 0px;
+  position: fixed;
+}
+
+.wrapper .sidebar h2 {
+  color: #fff;
+  text-transform: uppercase;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.wrapper .sidebar ul li {
+  padding: 15px;
+  border-bottom: 1px solid #bdb8d7;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+  border-top: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.wrapper .sidebar ul li a {
+  color: #bdb8d7;
+  display: block;
+}
+
+.wrapper .sidebar ul li a .fas {
+  width: 25px;
+}
+
+.wrapper .sidebar ul li:hover {
+  background-color: #594f8d;
+}
+
+.wrapper .sidebar ul li:hover a {
+  color: #fff;
+}
+
+.wrapper .sidebar .social_media {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+}
+
+.wrapper .sidebar .social_media a {
+  display: block;
+  width: 40px;
+  background: #594f8d;
+  height: 40px;
+  line-height: 45px;
+  text-align: center;
+  margin: 0 5px;
+  color: #bdb8d7;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+.wrapper .main_content {
+  width: 100%;
+  margin-left: 200px;
+}
+
+.wrapper .main_content .header {
+  padding: 20px;
+  background: #fff;
+  color: #717171;
+  border-bottom: 1px solid #e0e4e8;
+}
+
+.wrapper .main_content .info {
+  margin: 20px;
+  color: #717171;
+  line-height: 25px;
+}
+
+.wrapper .main_content .info div {
+  margin-bottom: 20px;
+}
+
+.s-input,
+textarea {
+  width: 60%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type="submit"] {
+  background-color: #4b4276;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-top: 3rem;
+}
+
+input[type="submit"]:hover,
+.add-btn:hover,
+.modify-btn:hover,
+.add-grade:hover {
+  background-color: #594f8d;
+}
+
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+.txt {
+  margin-right: 20px;
+}
+
+.students,
+.student {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.students td,
+.students th,
+.student td,
+.student th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+.students tr:nth-child(even),
+.student tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.students tr:hover,
+.student tr:hover {
+  background-color: #ddd;
+}
+
+.students th,
+.student th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #4b4276;
+  color: white;
+}
+
+.add-btn,
+.delete-btn,
+.modify-btn,
+.add-grade {
+  background-color: #4b4276;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  align-items: center;
+}
+
+.add {
+  text-align: center;
+}
+
+.add-grades {
+  margin-top: 3rem;
+  text-align: center;
+  margin-right: 15rem;
+}
+.note-input {
+  width: 20%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+  /* margin-right: 3rem;
+  margin-left: 7rem; */
+}
+
+.add-grade {
+  margin-left: 3rem;
+}
+
+.grade {
+  text-align: center;
+}
+.log-out {
+  margin-left: 1000px;
+}

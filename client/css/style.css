@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Amiri&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #4b4276;
+    height: 100vh;
+  }
+  hr {
+    display: block;
+    margin-bottom: 0.5em;
+    margin-bottom: 0.5em;
+    marker-start: auto;
+    marker-end: auto;
+    overflow: hidden;
+    border-width: 3px;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    border-color: aliceblue;
+}
+h1{
+    color: whitesmoke;
+    font-weight: bolder;
+    margin-top: 1rem;
+    letter-spacing: 0.5rem;
+    font-family: 'Amiri', serif;
+}
+  #login .container #login-row #login-column #login-box {
+    margin-top: 90px;
+    max-width: 600px;
+    height: 420px;
+    border: 1px solid #9C9C9C;
+    background-color: #EAEAEA;
+  }
+  #login .container #login-row #login-column #login-box #login-form {
+    padding: 20px;
+  }
+  #login .container #login-row #login-column #login-box #login-form #register-link {
+    margin-top: -85px;
+  }
+
+.alert{
+    margin-top: 10px;
+}
+.tx{
+  color: #4b4276;
+}
+.sb{
+  background-color: #8f81da;
+}

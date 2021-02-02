@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css"
+      rel="stylesheet"
+      id="bootstrap-css"
+    />
+    <!-- <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script> -->
+
+    <link rel="stylesheet" href="../css/style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1 class="text-center display-3">Privet University Of Fes</h1>
+    </div>
+    <hr />
+    <div class="container alert" hidden>
+      <div class="alert alert-success" role="alert">register succsesufly</div>
+    </div>
+    <div id="login">
+      <div class="container">
+        <div
+          id="login-row"
+          class="row justify-content-center align-items-center"
+        >
+          <div id="login-column" class="col-md-6">
+            <div id="login-box" class="col-md-12">
+              <form id="login-form" class="form">
+                <h3 class="text-center tx">register</h3>
+                <div class="form-group">
+                  <label for="name" class="tx">Name:</label> <br />
+                  <input
+                    type="text"
+                    name="name"
+                    id="name"
+                    class="form-control"
+                  />
+                </div>
+                <div class="form-group">
+                  <label for="email" class="tx">email:</label><br />
+                  <input
+                    type="email"
+                    name="email"
+                    id="email"
+                    class="form-control"
+                  />
+                </div>
+                <div class="form-group">
+                  <label for="password" class="tx">Password:</label><br />
+                  <input
+                    type="password"
+                    name="password"
+                    id="password"
+                    class="form-control"
+                  />
+                </div>
+                <div class="form-group">
+                  <br />
+                  <button id="submit" class="btn btn-md sb">Submit</button>
+                </div>
+                <div id="register-link" class="text-right">
+                  <a href="./loging.html" class="tx">log in here</a>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script type="module" src="../js/register.js"></script>
+  </body>
+</html>
